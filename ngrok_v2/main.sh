@@ -1,4 +1,4 @@
-rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
+rm -rf ngrok ngrok.zip main.sh > /dev/null 2>&1
 wget -O ng.sh https://raw.githubusercontent.com/mikegify/colab_ssh/main/ngrok_v2/get_ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
